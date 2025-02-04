@@ -2,7 +2,7 @@
 import React from "react";
 
 interface CardProps {
-    children?: React.ReactNode; // ✅ Make `children` optional
+    children?: React.ReactNode; // Make `children` optional
     className?: string;
 }
 
@@ -15,7 +15,7 @@ export function Card({ children, className = "" }: CardProps) {
 }
 
 interface CardContentProps {
-    children?: React.ReactNode; // ✅ Make `children` optional
+    children?: React.ReactNode;
     className?: string;
 }
 

@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Quiz/Survey Generator
 
-## Getting Started
+## Overview
+The Quiz/Survey Generator is a web-based application designed to allow users to create, manage, and take quizzes or surveys with ease. This project was developed to enhance my skills in TypeScript, React, and TailwindCSS while also implementing key software engineering concepts such as state management, local storage, and asynchronous operations.
 
-First, run the development server:
+The application allows users to:
+- Create quizzes and surveys with customizable questions (multiple-choice, true/false, and short answer formats).
+- Edit, delete, and rearrange questions before publishing the quiz.
+- Take quizzes and surveys, submit answers, and view results.
+- Validate input fields to ensure proper data entry.
+- Persist quizzes and responses using local storage.
 
-```bash
+This project demonstrates TypeScript's strong typing, React's component-based architecture, and TailwindCSS's utility-first styling approach.
+
+[Software Demo Video](http://youtube.link.goes.here)
+
+---
+
+## Development Environment
+- **Framework**: Next.js (React)
+- **Programming Language**: TypeScript
+- **Styling**: TailwindCSS
+- **State Management**: React Hooks (`useState`, `useEffect`)
+- **Local Storage**: Browser Local Storage API
+- **Package Manager**: npm
+- **Build Tool**: Vite/Next.js
+
+To install dependencies and run the project:
+```sh
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Useful Websites
+- [Next.js Documentation](https://nextjs.org/docs)
+- [TypeScript Official Docs](https://www.typescriptlang.org/docs/)
+- [TailwindCSS Docs](https://tailwindcss.com/docs)
+- [MDN Web Docs (JavaScript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [React Hooks Guide](https://reactjs.org/docs/hooks-intro.html)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Future Work
+- Improve the UI/UX for better user experience.
+- Implement authentication to allow users to save and retrieve their quizzes.
+- Add a feature to export quiz results as a PDF or CSV file.
+- Enable real-time collaboration for quiz creation.
+- Enhance error handling and validation messages.
+- Improve accessibility and mobile responsiveness.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is an ongoing learning experience, and I look forward to refining it further while applying advanced React and TypeScript concepts.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
