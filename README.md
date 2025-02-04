@@ -12,7 +12,7 @@ The application allows users to:
 
 This project demonstrates TypeScript's strong typing, React's component-based architecture, and TailwindCSS's utility-first styling approach.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/GjI9896Pgu0)
 
 ---
 
